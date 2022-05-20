@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BOXICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <div class="content__title">
+          <h1><span>Todo</span> App</h1>
+        </div>
+        <div class="content__add">
+          <input
+            type="text"
+            class="input-add"
+            id="input"
+            placeholder="Создайте список дел..."
+          />
+          <button class="btn" id="btn">
+            <i class="bx bx-plus"></i>
+          </button>
+        </div>
+        <ul class="content__items" id="result"></ul>
+      </div>
+    </div>
+    <!-- LINK JS -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
